@@ -5,6 +5,7 @@ const Teams = () => {
   return (
     <div>
       <Title>our teams this page</Title>
+      <Title>our teams this page</Title>
     </div>
   );
 };
