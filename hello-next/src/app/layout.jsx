@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <header className="w-11/12 mx-auto py-8">
           <Navbar />
         </header>
-        <main>{children}</main>
+        <main className="w-11/12 mx-auto">{children}</main>
       </body>
     </html>
   );
