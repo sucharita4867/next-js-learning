@@ -1,11 +1,11 @@
+import Banner from "@/components/Banner";
 import Title from "@/components/Title";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="py-2">
-      <Title>Welcome to Dev Story</Title>
-      {/* <h4></h4> */}
+    <div className="w-11/12 mx-auto">
+      <Banner />
     </div>
   );
 }
