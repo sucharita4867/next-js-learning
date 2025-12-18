@@ -5,6 +5,7 @@ const Tutorials = () => {
   return (
     <div>
       <Title>welcome to tutorials page</Title>
+      <Title>welcome to tutorials page</Title>
     </div>
   );
 };
