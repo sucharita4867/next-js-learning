@@ -5,6 +5,7 @@ const Settings = () => {
   return (
     <div>
       <Title>settings</Title>
+      <Title>settings</Title>
     </div>
   );
 };
