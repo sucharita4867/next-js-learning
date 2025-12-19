@@ -6,13 +6,13 @@ import NavLink from "./NavLink";
 
 const Navbar = () => {
   const pathname = usePathname();
-  console.log(pathname);
+  // console.log(pathname);
   if (pathname.startsWith("/dashboard")) {
     return <></>;
   }
 
   return (
-    <div className="border text-black flex py-2 justify-between">
+    <div className="border text-black flex py-2 justify-between items-center">
       <Link
         href={"/"}
         className="text-2xl font-bold hover:border px-3 py-2 border-gray-400"
