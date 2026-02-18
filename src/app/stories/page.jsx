@@ -69,6 +69,19 @@ const Stories = () => {
         "Zahidul is a highly experienced MERN stack developer who enjoys architecting robust and user-friendly applications. He has worked on dashboards, LMS platforms, eCommerce applications, and real-time features. His strength lies in understanding the entire flow of applications, from frontend UI to backend logic and database structures. Outside development, Zahidul likes reading books and researching new technologies. His long-term goal is to lead a software engineering team and build impactful products that solve real-world problems.",
       image: "https://randomuser.me/api/portraits/men/56.jpg",
     },
+    {
+      id: 2,
+      name: "Sara Ahmed",
+      designation: "Full Stack Developer",
+      company: "BrightByte Labs",
+      experience: "4 years",
+      skills: ["Node.js", "Express", "MongoDB", "React", "Docker"],
+      story:
+        "Sara began her journey with basic HTML and CSS tutorials. She enjoyed making designs come alive on the browser. Later, JavaScript caught her interest and she spent months mastering it. After learning React, she wanted to understand backend systems, so she moved into Node.js and database management. Building her first MERN full-stack application was a huge milestone. With every project, she pushed her limits and learned better architecture, data handling, and deployment strategies. Today, Sara continues learning distributed systems and DevOps essentials to improve her backend engineering skills.",
+      about:
+        "Sara is a dedicated full-stack developer who specializes in creating scalable and maintainable applications. She enjoys solving complex problems and improving user experiences with well-structured systems. Her teammates describe her as detail-oriented, curious, and persistent. Outside work, she mentors junior developers and contributes to documentation for open-source libraries. She also loves participating in hackathons and frequently collaborates with teams across the world. Sara’s goal is to become a software architect and work on high-performance cloud-native systems. She is passionate about continuous learning and firmly believes that consistency is the key to software mastery.",
+      image: "https://randomuser.me/api/portraits/women/22.jpg",
+    },
   ];
   return (
     <div>
