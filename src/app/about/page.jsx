@@ -6,6 +6,7 @@ const About = () => {
   return (
     <div>
       <Title>welcome to about pages</Title>
+      <h2>this is about page</h2>
 
       <nav className="space-x-5">
         <Link href={"/about/contacts"}>Contacts</Link>
