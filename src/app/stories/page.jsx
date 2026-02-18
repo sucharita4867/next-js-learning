@@ -72,7 +72,7 @@ const Stories = () => {
   ];
   return (
     <div>
-      <Title>This Projects Stories</Title>
+      <Title>This is Projects Stories page</Title>
       <div className="mt-4">
         {devStories.map((story) => (
           <StoryCard key={story.id} story={story}></StoryCard>
