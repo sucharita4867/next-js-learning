@@ -73,7 +73,7 @@ const StoryDetailsPage = async ({ params }) => {
 
   const story = devStories.find((story) => story.id == id);
   if (!story) {
-    return <h3>story Not Fount</h3>;
+    return <h3>story page is Not Fount</h3>;
   }
 
   //   console.log(result);
