@@ -5,7 +5,7 @@ const Teams = () => {
   return (
     <div>
       <Title>our teams this page</Title>
-      <Title>our teams this page</Title>
+      <h3>welcome about teams page </h3>
     </div>
   );
 };
