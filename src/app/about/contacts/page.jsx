@@ -5,6 +5,7 @@ const Contacts = () => {
   return (
     <div>
       <Title>about contacts page 123456789</Title>
+      <h3>welcome about contacts page</h3>
     </div>
   );
 };
