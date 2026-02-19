@@ -5,6 +5,7 @@ const login = () => {
   return (
     <div>
       <Title>this is login page</Title>
+      <h3>welcome to login page</h3>
     </div>
   );
 };
