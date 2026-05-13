@@ -6,7 +6,6 @@ const Banner = () => {
   const router = useRouter();
 
   const handleBtn = () => {
-    // console.log("clicked");
     const password = prompt("Enter your Password");
     if (password == "1234") {
       // console.log(router);
