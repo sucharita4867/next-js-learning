@@ -3,10 +3,10 @@ import React from "react";
 
 const TutorialPage = async ({ params }) => {
   const { slug } = await params;
+  // const { result } = await params;
   const [technology, topic, page_no, subjet] = slug || [];
-  //   const result = await slug;
+  const result = await slug;
 
-  console.log(technology);
   return (
     <div>
       <Title>{technology} tutorials</Title>
