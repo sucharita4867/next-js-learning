@@ -15,7 +15,6 @@ const TutorialPage = async ({ params }) => {
         <h3 className="font-bold text-blue-900">{subjet}</h3>
         <p>page no: {page_no}</p>
       </div>
-      {/* <Title>this is tutorial page</Title> */}
     </div>
   );
 };
